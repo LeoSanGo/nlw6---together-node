@@ -1,4 +1,6 @@
-import {MigrationInterface, QueryRunner, Table} from "typeorm";
+import {MigrationInterface, QueryRunner, } from "typeorm";
+import { Table } from "typeorm/schema-builder/table/Table";
+
 
 export class CreateUsers1624332429667 implements MigrationInterface {
 
